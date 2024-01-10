@@ -1,0 +1,173 @@
+body
+{
+    width: 1120px; 
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 20px; 
+    border-radius: 10px;
+}
+header
+{
+    text-align: center; 
+}
+h1
+{
+    color: #800d29; 
+    font-family: cursive; 
+}
+nav
+{
+    background-color: #f7e7d9; 
+    padding: 20px 0;
+    text-align: center;
+}
+nav a
+{
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #9f0015;
+    text-decoration: none; 
+    padding: 0 30px;
+}
+main
+{
+    width: 800px; 
+    float: left; 
+}
+aside
+{
+    width: 300px; 
+    float: right;
+    padding-left: 20px;
+}
+.redlink
+{
+    color: #9f0015;
+    text-decoration: none;
+}
+.redlink:hover
+{ 
+    color: #eb0a5a; 
+}
+aside h3
+{
+    color: #890417; 
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    background-color: #f7e7d9; 
+    padding: 10px 0; 
+}
+aside ul
+{
+    list-style: none;
+    padding-left: 0; 
+}
+aside li:nth-child(odd)
+{
+    color: white; 
+    background-color: #890417;
+}
+aside li
+{
+    line-height: 30px; 
+    padding-left: 5px; 
+    font-weight: bold; 
+}
+img
+{
+    width: 100%; 
+}
+footer
+{
+    clear: both; 
+    text-align: center; 
+    font-weight: bold; 
+    background-color: #f7e7d9;
+    padding: 20px 0;
+    font-size: 20px;
+    color: #9f0015;
+}
+
+.hero
+{
+    position: relative;
+    text-align: center;
+}
+.herotext
+{
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    left: 0;
+    right: 0; 
+    background-color: rgba(128,5,5,0.5); 
+    padding: 20px; 
+    color: #fbeeef; 
+    font-family: 'Times New Roman'; 
+    font-weight: bold; 
+}
+.herotext h2
+{
+    color: white; 
+}
+.shopbutton 
+{
+	background-color: #800d29; 
+    color: white; 
+	display: inline-block; 
+	width: 120px;
+	font-size: 20px; 
+	border: 2px solid white; 
+	text-decoration: none; 
+	padding: 10px; 
+}
+
+main.orderpic
+{
+    width: 100%;
+}
+.orderpic h2
+{
+    text-align: center;
+    color: #800d29;
+    font-family: 'Times New Roman';
+}
+.cart
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 25px;
+    margin: 15px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+.flower
+{
+    display: flex;
+    flex-flow: column;
+    border:  2px solid #890417;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 5px #890417;
+}
+.flower h3
+{
+    margin: 20px 0 0 0;
+}
+.flower button
+{
+    margin-top: auto; 
+    background-color: #890417;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+.flower > img 
+{
+    order: -1;
+    align-self: center;
+}
